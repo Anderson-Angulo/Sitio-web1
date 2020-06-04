@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
     <title>Principal | EDsoft</title>
 </head>
@@ -17,7 +17,9 @@
                <img src="images/logo.svg" alt="logo">
             </a>
         </div>
-        <nav class="main-menu">
+        <span id="open-menu-button" class="jam jam-menu" ></span>
+        <nav id="main-menu" class="main-menu">
+            <span id="close-menu-button" class="jam jam-close" ></span>
             <ul>
                 <li>
                     <a href="index.html">Inicio</a>
@@ -153,5 +155,6 @@
     <footer class="main-footer">
         <p>Todos los derechos reservados © 2020 | ITsoft tech lab agency</p>
     </footer>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
