@@ -5,118 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-    <title>ITsoft</title>
+    <title>Principal | EDsoft</title>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="/">
-               ITsoft
+    <header class="main-header">
+        <div class="content-wrapper">
+            <a href="index.html">
+               <img src="images/logo.svg" alt="logo">
             </a>
         </div>
-        <nav>
+        <nav class="main-menu">
             <ul>
                 <li>
-                    <a href="/">Inicio</a>
+                    <a href="index.html">Inicio</a>
                 </li>
 
                 <li>
-                    <a href="/nosotros.html">¿Quienes somos?</a>
+                    <a href="nosotros.html">¿Quienes somos?</a>
                 </li>
                 <li>
-                    <a href="/proyectos.html">Proyectos</a>
+                    <a href="proyectos.html">Proyectos</a>
                 </li>
                 <li>
-                    <a href="/contacto.html">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
+    
     <main>
-        <section>
-            <div>
-                <h1>Bienvenidos a ITsoft</h1>
-                <p> 
-                   Necesitas asesoramiento urgente!!!!!<br>
-                   Nosotros podemos ayudarte
-                </p>
-                <div>
-                    <a href="/contacto.html">Escríbenos Ahora</a>
+        <section class="main-banner section-container">
+            <div class="content-wrapper content">
+                <div class="container">
+                    <h1 class="title">Bienvenidos a EDsoft</h1>
+                    <p class="subtitle"> 
+                        Necesitas asesoramiento urgente !!!!!
+                        Nosotros podemos ayudarte a diseñar y contruir tu web ahora mismo 
+                    </p>
+                    <div>
+                        <a class="button white" href="contacto.html">Escríbenos Aquí</a>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="images/computer.svg" alt="computadora">
+            <div class="container">
+                <img class="image" src="images/computer.svg" alt="computadora">
             </div>
+        
         </section>
-        <section>
+        <section class="services-section section-container">
             <h2>
                 Nuestros Servicios
             </h2>
-            <div>
-                <article>
+            <div class="content-wrapper">
+                <article class="service-item">
                     <span class="jam jam-computer-alt"></span>
-                    <h3>Servicio 1</h3>
+                    <h3>Desarrollo Web</h3>
                     <p>Diseñamos tu presencia en internet con apariencia profesional</p>
                 </article>
                 
-                <article>
+                <article class="service-item">
                     <span class="jam jam-phone"></span>
-                    <h3>Servicio 2</h3>
+                    <h3>Desarrollo Móvil</h3>
                     <p>Diseñamos tu presencia en internet con apariencia profesional</p>
                 </article>
                 
-                <article>
+                <article class="service-item">
                     <span class="jam jam-keyboard"></span>
-                    <h3>Servicio 3</h3>
+                    <h3>Sistemas a medida</h3>
                     <p>Diseñamos tu presencia en internet con apariencia profesional</p>
                 </article>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Sobre nosotros</h2>
-                <p>Este es el sitio web de nuestra empresa de desarrollo</p>
-                <a href="/nosotros.html">Ver más</a>
+        <section class="section-container about-section">
+            <div class="content-wrapper">
+                <h2 class="title">Sobre nosotros</h2>
+                <p>Este es el sitio web de nuestra empresa de desarrollo <br> Un equipo dedicado a la tecnologia para hacer <br> crecer tu empresa o negocio</p>
+                <a class=" button white ghost" href="/nosotros.html">Ver más</a>
             </div>
-            <img src="" alt="">
+            <img class="background" src="images/bg-section.jpg" alt="Alumnos estudiando">
         </section>
-        <section>
+        <section class="section-container last-projects">
             <h2>Últimos proyectos</h2>
-            <div>
-                <a href="#">
+            <div class="content-wrapper">
+                <a class="project-item" href="#">
                     <article>
                         <div>
                             <h4>Titulo Proyecto</h4>
                             <p>descripcion del proyecto</p>
                         </div>
+                        <div class="image-container">
+                            <img src="images/project-1.jpg" alt="proyecto 1">
+                        </div>
                     </article>
                 </a>
-                <a href="#">
+                <a class="project-item" href="#">
                     <article>
                         <div>
                             <h4>Titulo Proyecto</h4>
                             <p>descripcion del proyecto</p>
                         </div>
+                        <div class="image-container">
+                            <img src="images/project-2.jpg" alt="proyecto 2">
+                        </div>
                     </article>
                 </a>
-                <a href="#">
+                <a class="project-item" href="#">
                     <article>
                         <div>
                             <h4>Titulo Proyecto</h4>
                             <p>descripcion del proyecto</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/project-3.jpg" alt="proyecto 3">
+                        </div>
+                    </article>
+                </a>
+                <a class="project-item" href="#">
+                    <article>
+                        <div>
+                            <h4>Titulo Proyecto</h4>
+                            <p>descripcion del proyecto</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/project-4.jpg" alt="proyecto 4">
                         </div>
                     </article>
                 </a>
             </div>
         </section>
-        <section>
-            <div>
-                <h2></h2>
-                <p></p>
-                <a href="mailto:contactoitsoft@mail.com">contactoitsoft@mail.com</a>
-                <div>
+        <section class="work-with-us">
+            <div class="content-wrapper">
+                <h2 class="title">¿Quieres trabajar con nosotros</h2>
+                <p class="subtitle">Es momento de convertir tu idea en realidad <br> Puedes contactarnos en nuestras redes sociales</p>
+                <a class="button" href="mailto:contactoitsoft@mail.com">contactoitsoft@mail.com</a>
+                <div class="social-networks">
                     <a href="" target="_blank"><span class="jam jam-facebook"></span></a>
                     <a href="" target="_blank"><span class="jam jam-instagram"></span></a>
                     <a href="" target="_blank"><span class="jam jam-whatsapp"></span></a>
@@ -125,7 +150,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="main-footer">
         <p>Todos los derechos reservados © 2020 | ITsoft tech lab agency</p>
     </footer>
 </body>

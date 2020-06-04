@@ -9,7 +9,7 @@
     - Servicios que ofrecemos
         . Desarrollo Web
         . Desarrollo móvil
-        .Sistemas a medida
+        . Sistemas a medida
     - Banner Corporativo
         . imagen de fondo
         . Texto principal
